@@ -5,32 +5,74 @@ using namespace std;
 int main()
 {
     float a;
-    cout<<"Ingrese el valor de a: ";
-    cin >> a;
+//    cout<<"Ingrese el valor de a: ";
+//    cin >> a;
     float b;
-    cout<<"Ingrese el valor de b: ";
-    cin >> b;
+//    cout<<"Ingrese el valor de b: ";
+//    cin >> b;
     float d;
-    cout<<"Ingrese el valor del radio d: ";
+    cout<<"Ingrese el valor del radio d: " << endl;
     cin>> d;
     float e;
     float pi = 3.1416;
-    float c=a+b;
-    cout << "La Suma de "<< a <<" y de "<< b <<" es: "<< c << endl;
-    c=a-b;
-    cout << "La Resta de "<< a <<" y de "<< b <<" es: "<< c << endl;
-    c=a*b;
-    cout << "La Multiplicacion de "<< a <<" y de "<< b <<" es: "<< c << endl;
-    c=a/b;
-    cout << "La Division de "<< a <<" y de "<< b <<" es: "<< c << endl;
+
+    // Operaciones Fundamentales
+
+//    float c=a+b;
+//    cout << "La Suma de "<< a <<" y de "<< b <<" es: "<< c << endl;
+//    c=a-b;
+//    cout << "La Resta de "<< a <<" y de "<< b <<" es: "<< c << endl;
+//    c=a*b;
+//    cout << "La Multiplicacion de "<< a <<" y de "<< b <<" es: "<< c << endl;
+//    c=a/b;
+//    cout << "La Division de "<< a <<" y de "<< b <<" es: "<< c << endl;
+
+    //Areas de las figuras geometricas
+
     cout << "El diametro es: " << 2*d << endl;
     cout << "El area del circulo es:" << pi*(d*d) << endl;
-    cout << "Ingrese la altura del rectangulo: ";
+    cout << "Ingrese la altura del rectangulo: " << endl;
     cin>> d;
-    cout << "Ingrese la base del rectangulo: ";
+    cout << "Ingrese la base del rectangulo: " << endl;
     cin>> e;
     cout << "El area del rectangulo es: " << e*d << endl;
-    cout << "GG EZ PROFE" << endl;
+    cout << "Ingrese el valor de un lado del cuadrado" << endl;
+    cin>> e;
+    cout << "El area del cuadrado es: " << e*e << endl;
+
+    //Intercambio de Variables
+
+    cout << "Ingrese el valor de a: " << endl;
+    cin >> a;
+    cout << "Ingrese el valor de b: " << endl;
+    cin >> b;
+    cout << "Ahora habra un intercambio de valores de a=" << a << " y b=" << b << endl;
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    cout << "a="<< a << " y b=" << b << endl;
+
+    //Comparacion de variables
+
+    cout << "Ingrese un numero: ";
+    cin >> d;
+    cout << "Ingrese otro numero: ";
+    cin >> e;
+    if (d>e){
+        cout << "El numero mayor es :" << d << endl;
+    }
+    else{
+        cout << "El numero mayor es :" << e << endl;
+    }
+    cout << endl;
+    cout << "GG EZ :V" << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
     cout << "okno no me jale profe :'v" << endl;
     return 0;
 }
