@@ -55,9 +55,9 @@ int main()
 
     //Comparacion de variables
 
-    cout << "Ingrese un numero: ";
+    cout << "Ingrese un numero: " << endl;
     cin >> d;
-    cout << "Ingrese otro numero: ";
+    cout << "Ingrese otro numero: " << endl;
     cin >> e;
     if (d>e){
         cout << "El numero mayor es :" << d << endl;
@@ -65,6 +65,18 @@ int main()
     else{
         cout << "El numero mayor es :" << e << endl;
     }
+
+    //Intercambio de solo 2 variables
+
+    cout << "Ingrese un numero: " << endl;
+    cin >> a;
+    cout << "Ingrese un numero: " << endl;
+    cin >> b;
+    cout << "Los valores ingresados son: " << a << " y " << b << endl;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout << "Los valores intercambiados son: " << a << " y " << b << endl;
     cout << endl;
     cout << "GG EZ :V" << endl;
     cout << endl;
@@ -73,6 +85,6 @@ int main()
     cout << endl;
     cout << endl;
     cout << endl;
-    cout << "okno no me jale profe :'v" << endl;
+    cout << "okno no me jale profe plox :'v" << endl;
     return 0;
 }
