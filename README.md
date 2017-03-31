@@ -1,2 +1,2 @@
-# Ciencia de la Computación
-Jean Carlo :v
+# Ciencia de la ComputaciÃ³n
+Jean Carlo :v (Eltragapoias)
