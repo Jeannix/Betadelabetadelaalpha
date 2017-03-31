@@ -11,7 +11,7 @@ int main()
 //    cout<<"Ingrese el valor de b: ";
 //    cin >> b;
     float d;
-//    cout<<"Ingrese el valor del radio d: " << endl;
+//    cout<<"Ingrese el valor del radio d: " << endl;return 0;
 //    cin>> d;
     float e;
     float pi = 3.1416;
@@ -81,21 +81,39 @@ int main()
 
     // Clase 30/03/2017
 
-    int a,b;
-    cout << "Ingrese un numero: " << endl;
-    cin >> a;
-    cout << "Ingrese un numero: " << endl;
-    cin >> b;
-    int z;
-    z=(a>b)? a:b;
-    cout << z;
-    cout << "Ingrese 5 numeros" << endl;
-    int Array[3];
-    Array[0]=4;
-    Array[1]=5;
-    Array[2]=6;
-    cout << Array[0] << endl;
-    cout << Array[1] << endl;
-    cout << Array[2] << endl;
+//    int a,b;
+//    cout << "Ingrese un numero: " << endl;
+//    cin >> a;
+//    cout << "Ingrese un numero: " << endl;
+//    cin >> b;
+//    int z;
+//    z=(a>b)? a:b;
+//    cout << z;
+//    cout << "Ingrese 5 numeros" << endl;
+//    int Array[3];
+//    Array[0]=4;
+//    Array[1]=5;
+//    Array[2]=6;
+//    cout << Array[0] << endl;
+//    cout << Array[1] << endl;
+//    cout << Array[2] << endl;
+
+    // Clase 31/03/17 Bucles (FOR Y WHILE)
+    int tam, temp;
+    cout << "Ingrese Tamano: ";
+    cin >> tam;
+
+    int arreglo[tam];
+    for(int i = 0; i < tam; i++) {
+        cin >> arreglo[i];
+    }
+    for(int i = 0, j = tam-1; i < j; i++, j--) {
+        temp = arreglo[i];
+        arreglo[i] = arreglo[j];
+        arreglo[j] = temp;
+    }
+    for(int i = 0; i < tam; i++){
+        cout << arreglo[i];
+    }
     return 0;
 }
