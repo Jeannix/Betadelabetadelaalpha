@@ -113,7 +113,24 @@ int main()
         arreglo[j] = temp;
     }
     for(int i = 0; i < tam; i++){
-        cout << arreglo[i];
+        cout << arreglo[i] << endl;
+    }
+
+    cout << "N°primos" << endl;
+    int i=2;
+    int limit;
+    cout << "Ingrese un limite" << endl;
+    cin >> limit;
+    for(int i=2;i<=limit-1;i++){
+        int cont=0;
+        for (int j=1;j<=i;j++){
+            if (i%j==0){
+                cont++;
+            }
+        }
+        if(cont==2){
+            cout << i << endl;
+        }
     }
     return 0;
 }
