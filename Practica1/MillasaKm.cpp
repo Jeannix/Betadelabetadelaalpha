@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main2()
+int main1()
 {
     cout<<"Problema 1"<<endl;
     const float km=1.60934;

@@ -32,10 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Calc.cpp" />
+		<Unit filename="CambioporRef.cpp" />
+		<Unit filename="MillasaKm.cpp" />
+		<Unit filename="NumerosaLetras.cpp" />
 		<Unit filename="ParImpar.cpp" />
 		<Unit filename="Potencia.cpp" />
-		<Unit filename="Untitled3.cpp" />
-		<Unit filename="main.cpp" />
+		<Unit filename="Temp.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

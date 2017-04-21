@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main4()
+int main2()
 {
     cout<<"Problema 2"<<endl;
     for (double f = 0 ; f <= 300 ; f+=20)

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main5()
+int main3()
 {
     cout<<"Problema 3"<<endl;
     long int number_input;
