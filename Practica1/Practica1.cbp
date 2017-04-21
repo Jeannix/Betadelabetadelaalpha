@@ -33,11 +33,15 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Calc.cpp" />
+		<Unit filename="CambioporPunt.cpp" />
 		<Unit filename="CambioporRef.cpp" />
+		<Unit filename="InsertionSort.cpp" />
 		<Unit filename="MillasaKm.cpp" />
 		<Unit filename="NumerosaLetras.cpp" />
 		<Unit filename="ParImpar.cpp" />
 		<Unit filename="Potencia.cpp" />
+		<Unit filename="Reverse.cpp" />
+		<Unit filename="SumRedArr.cpp" />
 		<Unit filename="Temp.cpp" />
 		<Extensions>
 			<code_completion />

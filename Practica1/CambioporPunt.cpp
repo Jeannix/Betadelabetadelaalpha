@@ -1,17 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void intercambio1(int &a, int &b)
-{
-    int temp;
-    temp = a;
-    a = b;
-    b = temp;
-}
 
-int main7()
+void changeNumbers(int *r, int *s)
+  {
+     int temp = *r;
+     *r = *s;
+     *s = temp;
+     return;
+  }
+
+int main8()
 {
-  cout << "Problema 7" << endl;
+  cout << "Problema 8" << endl;
   int number_a , number_b;
   cout << "Intercambio de 2 numeros " << endl;
   cout << "Ingresa el numero A" << endl;
@@ -22,7 +23,9 @@ int main7()
   cout << "El valor de A es " << number_a << endl;
   cout << "El valor de B es " << number_b << endl;
 
-  intercambio1(number_a, number_b);
+  int *ptrA = &number_a;
+  int *ptrB = &number_b;
+  changeNumbers(ptrA, ptrB);
 
   cout << "El valor de A ahora es " << number_a << endl;
   cout << "El valor de B ahora es " << number_b << endl;
