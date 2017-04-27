@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main6()
+int main()
 {
     cout << "Problema 6" << endl;
     double numa , numb,resultado;

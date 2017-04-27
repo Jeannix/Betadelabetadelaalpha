@@ -33,10 +33,11 @@ void printArreglor(int arreglo[],int lenght)
   cout << endl;
 }
 
-int main()
+int main12()
 {
+  cout << "Problema 12" << endl;
   cout << "Utilizando la funcion Reversa"<< endl;
-  cout << "Cuantos elementos ingresaras a la lista: ";
+  cout << "Numero de elementos de la lista: ";
   int lenght; cin >> lenght;
   cout << endl;
   int arreglo[lenght];
