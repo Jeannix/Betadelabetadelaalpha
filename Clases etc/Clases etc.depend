@@ -9,3 +9,31 @@
 1495210665 c:\users\alumno-g\downloads\clases etc\include\prueba.h
 	<string>
 
+1495745644 source:c:\users\alumno-g\betadelabetadelaalpha\clases etc\main.cpp
+	<iostream>
+	<Prueba.h>
+	<Auto.h>
+	<Bicicleta.h>
+
+1495744988 c:\users\alumno-g\betadelabetadelaalpha\clases etc\include\prueba.h
+	<string>
+
+1495741607 source:c:\users\alumno-g\betadelabetadelaalpha\clases etc\src\prueba.cpp
+	"Prueba.h"
+
+1495745676 source:c:\users\alumno-g\betadelabetadelaalpha\clases etc\src\auto.cpp
+	"Auto.h"
+	"Prueba.h"
+
+1495742756 c:\users\alumno-g\betadelabetadelaalpha\clases etc\include\auto.h
+	<Prueba.h>
+
+1495745403 source:c:\users\alumno-g\betadelabetadelaalpha\clases etc\src\bicicleta.cpp
+	"Bicicleta.h"
+	"Prueba.h"
+
+1495745403 c:\users\alumno-g\betadelabetadelaalpha\clases etc\include\bicicleta.h
+	<Prueba.h>
+
+1495743753 source:c:\users\alumno-g\betadelabetadelaalpha\clases etc\src\camion.cpp
+
