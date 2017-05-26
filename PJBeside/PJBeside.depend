@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1495815500 source:c:\users\alumno-g\desktop\pjbeside\main.cpp
+	<iostream>
+	<Persona.h>
+	<Cumpleanho.h>
+
+1495814732 c:\users\alumno-g\desktop\pjbeside\include\persona.h
+	<string>
+
+1495813228 source:c:\users\alumno-g\desktop\pjbeside\src\cumpleaños.cpp
+
+1495813292 source:c:\users\alumno-g\desktop\pjbeside\src\persona.cpp
+	"Persona.h"
+
+1495815716 c:\users\alumno-g\desktop\pjbeside\include\cumpleanho.h
+	<string>
+
+1495815238 source:c:\users\alumno-g\desktop\pjbeside\src\cumpleanho.cpp
+	"Cumpleanho.h"
+
