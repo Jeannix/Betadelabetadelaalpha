@@ -1,12 +1,11 @@
 #include "Persona.h"
+#include "Cumpleanho.h"
 
-Persona::Persona(const int miedad, const string minombre, const string miempleo){
-    edad=miedad;
+Persona::Persona(const string minombre, const string miempleo, Cumpleanho _mybirthday){
+    mybirthday = _mybirthday;
     nombre=minombre;
     empleo=miempleo;
 }
-const int Persona::getEdad()
-    {return edad;}
 const string Persona::getNombre()
     {return nombre;}
 const string Persona::getEmpleo()

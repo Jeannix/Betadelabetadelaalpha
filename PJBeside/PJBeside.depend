@@ -18,3 +18,30 @@
 1495815238 source:c:\users\alumno-g\desktop\pjbeside\src\cumpleanho.cpp
 	"Cumpleanho.h"
 
+1496348827 source:c:\users\alumno-g\downloads\betadelabetadelaalpha-master\pjbeside\main.cpp
+	<iostream>
+	<Persona.h>
+	<Cumpleanho.h>
+
+1496350602 c:\users\alumno-g\downloads\betadelabetadelaalpha-master\pjbeside\include\persona.h
+	<string>
+	<Cumpleanho.h>
+
+1496349044 c:\users\alumno-g\downloads\betadelabetadelaalpha-master\pjbeside\include\cumpleanho.h
+	<string>
+
+1496349510 source:c:\users\alumno-g\downloads\betadelabetadelaalpha-master\pjbeside\src\conserje.cpp
+
+1496349503 c:\users\alumno-g\downloads\betadelabetadelaalpha-master\pjbeside\include\conserje.h
+
+1496348988 source:c:\users\alumno-g\downloads\betadelabetadelaalpha-master\pjbeside\src\cumpleanho.cpp
+	"Cumpleanho.h"
+	"Persona.h"
+
+1496350623 source:c:\users\alumno-g\downloads\betadelabetadelaalpha-master\pjbeside\src\gerente.cpp
+	"Gerente.h"
+
+1496350524 c:\users\alumno-g\downloads\betadelabetadelaalpha-master\pjbeside\include\gerente.h
+	<Persona.h>
+	<Cumpleanho.h>
+

@@ -15,7 +15,7 @@ public:
     const int getMes();
     const int getAnho();
     virtual const int getEdad(int a);
-//    void getFecha();
+
 
 };
 

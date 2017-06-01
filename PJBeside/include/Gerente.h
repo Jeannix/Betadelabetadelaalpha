@@ -3,10 +3,16 @@
 #include <Persona.h>
 #include <Cumpleanho.h>
 
-class Gerente : Persona, Cumpleanho
+class Gerente : public Persona
 {
+protected:
+    int salario;
 public:
-    Gerente(con)
+    Gerente(const string minombre, const string miempleo, Cumpleanho birthday, const int miSalario);
+//    int getEdad();
+    const string getNombre();
+    const string getEmpleo();
+    const int getSalario();
 
 };
 

@@ -1,18 +1,19 @@
 #ifndef PERSONA_H
 #define PERSONA_H
 #include <string>
+#include <Cumpleanho.h>
 
 using namespace std;
 
 class Persona
 {
 protected:
-    int edad;
     string nombre;
     string empleo;
+    Cumpleanho birthday;
 public:
-    Persona(const int miedad, const string minombre, const string miempleo);
-    virtual const int getEdad();
+    Persona(const string minombre, const string miempleo, Cumpleanho mybirthday);
+    virtual int getEdad() = 0;
     const string getNombre();
     const string getEmpleo();
 
