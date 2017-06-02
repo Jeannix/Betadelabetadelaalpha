@@ -8,8 +8,8 @@ class Gerente : public Persona
 protected:
     int salario;
 public:
-    Gerente(const string minombre, const string miempleo, Cumpleanho birthday, const int miSalario);
-//    int getEdad();
+    Gerente(const string minombre, const string miempleo, Cumpleanho mybirthday, const int miSalario);
+    int getEdad();
     const string getNombre();
     const string getEmpleo();
     const int getSalario();

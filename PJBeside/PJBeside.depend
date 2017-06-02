@@ -45,3 +45,33 @@
 	<Persona.h>
 	<Cumpleanho.h>
 
+1496371314 source:d:\instaladores\programacion\betadelabetadelaalpha\pjbeside\main.cpp
+	<iostream>
+	<Persona.h>
+	<Cumpleanho.h>
+	<Gerente.h>
+
+1496370977 d:\instaladores\programacion\betadelabetadelaalpha\pjbeside\include\persona.h
+	<string>
+	<Cumpleanho.h>
+
+1496371199 d:\instaladores\programacion\betadelabetadelaalpha\pjbeside\include\cumpleanho.h
+	<string>
+
+1496343738 source:d:\instaladores\programacion\betadelabetadelaalpha\pjbeside\src\conserje.cpp
+
+1496371231 source:d:\instaladores\programacion\betadelabetadelaalpha\pjbeside\src\cumpleanho.cpp
+	"Cumpleanho.h"
+	"Persona.h"
+
+1496370854 source:d:\instaladores\programacion\betadelabetadelaalpha\pjbeside\src\gerente.cpp
+	"Gerente.h"
+
+1496370854 d:\instaladores\programacion\betadelabetadelaalpha\pjbeside\include\gerente.h
+	<Persona.h>
+	<Cumpleanho.h>
+
+1496371449 source:d:\instaladores\programacion\betadelabetadelaalpha\pjbeside\src\persona.cpp
+	"Persona.h"
+	"Cumpleanho.h"
+
