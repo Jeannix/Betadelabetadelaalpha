@@ -17,9 +17,6 @@ public:
     const string getNombre();
     const string getEmpleo();
 
-
-//        virtual ~Persona();
-
 };
 
 #endif // PERSONA_H

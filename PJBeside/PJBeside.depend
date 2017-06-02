@@ -75,3 +75,39 @@
 	"Persona.h"
 	"Cumpleanho.h"
 
+1496416896 source:c:\users\alumno-g\downloads\pjbeside\main.cpp
+	<iostream>
+	<Persona.h>
+	<Cumpleanho.h>
+	<Gerente.h>
+	<Conserje.h>
+
+1496417010 c:\users\alumno-g\downloads\pjbeside\include\persona.h
+	<string>
+	<Cumpleanho.h>
+
+1496365614 c:\users\alumno-g\downloads\pjbeside\include\cumpleanho.h
+	<string>
+
+1496365614 c:\users\alumno-g\downloads\pjbeside\include\gerente.h
+	<Persona.h>
+	<Cumpleanho.h>
+
+1496365614 source:c:\users\alumno-g\downloads\pjbeside\src\cumpleanho.cpp
+	"Cumpleanho.h"
+	"Persona.h"
+
+1496365614 source:c:\users\alumno-g\downloads\pjbeside\src\gerente.cpp
+	"Gerente.h"
+
+1496365614 source:c:\users\alumno-g\downloads\pjbeside\src\persona.cpp
+	"Persona.h"
+	"Cumpleanho.h"
+
+1496416746 c:\users\alumno-g\downloads\pjbeside\include\conserje.h
+	<Persona.h>
+	<Cumpleanho.h>
+
+1496416746 source:c:\users\alumno-g\downloads\pjbeside\src\conserje.cpp
+	"Conserje.h"
+
