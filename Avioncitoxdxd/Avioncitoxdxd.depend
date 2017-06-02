@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1496421009 source:c:\users\alumno-g\downloads\avioncitoxdxd\main.cpp
+	<iostream>
+	<Avion.h>
+	<Avioneta.h>
+	<Jumbo.h>
+	<Torre.h>
+
+1496421009 c:\users\alumno-g\downloads\avioncitoxdxd\include\avion.h
+
+1496421009 c:\users\alumno-g\downloads\avioncitoxdxd\include\avioneta.h
+	<Avion.h>
+
+1496421009 c:\users\alumno-g\downloads\avioncitoxdxd\include\jumbo.h
+	<Avion.h>
+
+1496420377 c:\users\alumno-g\downloads\avioncitoxdxd\include\torre.h
+
