@@ -1,18 +1,34 @@
 # depslib dependency file v1.0
-1496421009 source:c:\users\alumno-g\downloads\avioncitoxdxd\main.cpp
+1496955244 source:c:\users\alumno-g\downloads\avioncitoxdxd\main.cpp
 	<iostream>
 	<Avion.h>
 	<Avioneta.h>
 	<Jumbo.h>
 	<Torre.h>
 
-1496421009 c:\users\alumno-g\downloads\avioncitoxdxd\include\avion.h
+1496954774 c:\users\alumno-g\downloads\avioncitoxdxd\include\avion.h
+	<iostream>
 
-1496421009 c:\users\alumno-g\downloads\avioncitoxdxd\include\avioneta.h
+1496954068 c:\users\alumno-g\downloads\avioncitoxdxd\include\avioneta.h
 	<Avion.h>
 
-1496421009 c:\users\alumno-g\downloads\avioncitoxdxd\include\jumbo.h
+1496955287 c:\users\alumno-g\downloads\avioncitoxdxd\include\jumbo.h
 	<Avion.h>
 
-1496420377 c:\users\alumno-g\downloads\avioncitoxdxd\include\torre.h
+1496954616 c:\users\alumno-g\downloads\avioncitoxdxd\include\torre.h
+	<Avioneta.h>
+	<Jumbo.h>
+	<vector>
+
+1496955002 source:c:\users\alumno-g\downloads\avioncitoxdxd\src\avion.cpp
+	"Avion.h"
+
+1496954707 source:c:\users\alumno-g\downloads\avioncitoxdxd\src\avioneta.cpp
+	"Avioneta.h"
+
+1496953972 source:c:\users\alumno-g\downloads\avioncitoxdxd\src\jumbo.cpp
+	"Jumbo.h"
+
+1496953763 source:c:\users\alumno-g\downloads\avioncitoxdxd\src\torre.cpp
+	"Torre.h"
 

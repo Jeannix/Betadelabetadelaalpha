@@ -8,6 +8,13 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    Avioneta Av1();
+    Avioneta Av2("Avioneta",1998,"RojoAzulado");
+    Jumbo Ju1();
+    Jumbo Ju2("Jumbo",2002,"VerdeCamuflado");
+    Torre torreA;
+    torreA.agregarAvion(&Av2);
+    torreA.imprimirMensaje();
+    torreA.agregarAvion(&Ju2);
+    torreA.imprimirMensaje();
 }

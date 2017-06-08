@@ -4,11 +4,17 @@
 
 class Avioneta : public Avion
 {
-    public:
+public:
         Avioneta();
+        Avioneta(char *modelo1,int year1, char *color1);
         virtual ~Avioneta();
-    protected:
+        void Saludo();
+        char getModelo();
+        int getYear();
     private:
+        char *modelo;
+        int year;
+        char *color;
 };
 
 #endif // AVIONETA_H

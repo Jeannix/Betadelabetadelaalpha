@@ -1,14 +1,15 @@
 #ifndef TORRE_H
 #define TORRE_H
-
+#include <Avioneta.h>
+#include <Jumbo.h>
+#include <vector>
 
 class Torre
 {
     public:
-        Torre();
-        virtual ~Torre();
-    protected:
-    private:
+        vector <Avion*> aviones;
+        void agregarAvion(Avion *w);
+        void imprimirMensaje();
 };
 
 #endif // TORRE_H

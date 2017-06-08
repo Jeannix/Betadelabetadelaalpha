@@ -2,15 +2,19 @@
 
 Avion::Avion()
 {
-    n_Vuelo=0;
-    n_Av=0;
+    this -> modelo = NULL;
+    this -> year = 0;
 }
-Avion::Avion(int n_Vuelo1, int n_Av)
+Avion::Avion(char* modelo1,int year1)
 {
-    n_Vuelo1=n_Vuelo;
-    n_Av1=n_Av;
+    modelo = new char[20];
+    this -> modelo = modelo1;
+    this -> year = year1;
 }
-int Avion::getVuelo()
-    {return n_Vuelo;}
-int Avion::getAvion()
-    {return n_Av;}
+Avion::~Avion()
+{
+    delete[] modelo;
+
+}
+
+int Avion::getYear(){return year;}
