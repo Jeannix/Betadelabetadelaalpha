@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1496952053 source:c:\users\alumno-g\downloads\pnts\main.cpp
+	<iostream>
+	<geometry.h>
+
+1496952018 source:c:\users\alumno-g\downloads\pnts\src\geometry.cpp
+	<geometry.h>
+
+1496952018 c:\users\alumno-g\downloads\pnts\include\geometry.h
+	<iostream>
+
