@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1497559406 source:c:\users\alumno-g\downloads\stocks\main.cpp
+	<iostream>
+	<vector>
+
