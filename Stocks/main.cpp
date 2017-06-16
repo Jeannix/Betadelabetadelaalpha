@@ -4,7 +4,9 @@
 using namespace std;
 
 template < class T> class Stack ;
+
 template < class T> Stack <T> operator +( const Stack <T> &s1 , const Stack <T> &s2);
+
 template < class T> Stack <T> operator -( const Stack <T> &s1 , const Stack <T> &s2);
 
 template < class T>
@@ -37,22 +39,63 @@ Stack <T> operator +( const Stack <T> &s1 , const Stack <T> &s2)
     return result ;
 }
 template < class T>
-Stack <T> operator -( const Stack<T> &s1 , const Stack<T> &s2)
+Stack <T> operator -( const Stack <T> &s1 , const Stack <T> &s2)
     {
-	Stack<T> result=s1;
-	int tam = s1.st.size()-1;
-	for(tam;tam>=0;tam--){
-		if(result.st[tam]== s2.st[tam])
-			result.st.erase(result.st.begin()+tam);
-	}
-	return result ;
+    Stack <T> result;
+
+
+    for (unsigned int i = 0; i<s1.items.size();i++){
+        bool conf = true;
+        for (unsigned int j = 0; j<s2.items.size();j++){
+                if(s1. items [i] == s2. items [j]){
+                    conf = false;
+                    break;
+                }
+        }
+        if (conf == true){
+                    result . items . push_back(s1.items[i]);
+                    }
+                }
+    return result ;
+    }
+template<class T>
+ostream& operator<<(ostream &output, const Stack<T> &s3)
+{
+    for(int i=0;i<s3.items.size();i++)
+    {
+        output <<s3.items[i] << endl;
+    }
+    return output;
 }
+
 int main()
 {
-    Stack<int> stack1, stack2,stackres;
+    cout <<"Primera Operacion"<<endl;
+    Stack<int> stack1, stack2,stackres,stackres2;
     stack1.push(8);
     stack2.push(5);
+    cout <<"Stack 1 : ";
+    stack1.getDatos(stack1);
+    cout <<" "<<endl;
+    cout <<"Stack 2 : ";
+    stack2.getDatos(stack2);
+    cout <<" "<<endl;
     stackres = (stack1+stack2);
+    cout <<"Stack 3, resultado de la Suma de ambos : ";
     stackres.getDatos(stackres);
-
+    cout <<" "<<endl;
+    cout <<"Segunda Operacion "<<endl;
+    stack1.push(6);
+    stack2.push(6);
+    stack1.push(5);
+    stack2.push(4);
+    cout <<"Stack 1 : ";
+    stack1.getDatos(stack1);
+    cout <<" "<<endl;
+    cout <<"Stack 2 : ";
+    stack2.getDatos(stack2);
+    cout <<" "<<endl;
+    stackres2 = (stack1-stack2);
+    cout <<"Stack 4, resultado de la Resta de ambos : ";
+    stackres2.getDatos(stackres2);
 }
