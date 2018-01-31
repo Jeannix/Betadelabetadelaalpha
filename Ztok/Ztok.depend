@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1517407527 source:c:\users\alumno-m.aulab\downloads\ztok\main.cpp
+	<iostream>
+	<stdexcept>
+	<vector>
+	<map>
+
